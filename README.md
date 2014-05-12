@@ -33,6 +33,7 @@ PULL REQUEST HERE
 $ git branch -d hoge
 ```
 
+### メンテナンス
 不要になったリモートブランチの削除
 ```
 $ git push origin :hoge
