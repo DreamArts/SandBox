@@ -66,7 +66,7 @@ $ git pull
 PULL REQUEST HERE
 ```
 
-### 後始末
+### マージしてもらった後の、後始末
 不要になったローカルブランチの削除
 ```
 $ git branch -d feature/hoge_hoge
