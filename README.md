@@ -71,7 +71,7 @@ PULL REQUEST HERE
 
 ### マージしてもらった後の、後始末
 
-masterに戻る
+masterブランチに戻る
 ```
 $ git checkout master
 $ git pull
