@@ -88,3 +88,6 @@ $ git fetch --all
 $ git fetch --prune
 ```
 
+## License
+
+## Contributor
