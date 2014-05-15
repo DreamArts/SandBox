@@ -89,5 +89,6 @@ $ git fetch --prune
 ```
 
 ## License
+MIT
 
 ## Contributor
