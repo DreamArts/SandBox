@@ -67,6 +67,17 @@ PULL REQUEST HERE
 ```
 
 ### マージしてもらった後の、後始末
+
+masterに戻る
+```
+$ git checkout master
+```
+
+ブランチの同期
+```
+$ git fetch --prune
+```
+
 不要になったローカルブランチの削除
 ```
 $ git branch -d feature/hoge_hoge
