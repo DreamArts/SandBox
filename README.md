@@ -100,6 +100,6 @@ $ git fetch --prune
 ```
 
 ## License
-MIT
+MIT Licence. Go WiLD!
 
 ## Contributor
