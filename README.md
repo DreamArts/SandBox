@@ -69,7 +69,7 @@ $ git pull
 PULL REQUEST HERE
 ```
 
-### マージしてもらった後の、後始末
+### masterブランチにマージしてもらった後の、後始末
 
 - masterブランチに戻る
 ```
