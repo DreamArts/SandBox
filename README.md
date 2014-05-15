@@ -77,7 +77,7 @@ $ git checkout master
 $ git pull
 ```
 
-不要になったローカルブランチの削除
+不要になった開発(フィーチャー)ブランチの削除
 ```
 $ git branch -d feature/hoge_hoge
 ```
