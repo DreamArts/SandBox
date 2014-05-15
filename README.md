@@ -71,9 +71,10 @@ PULL REQUEST HERE
 masterに戻る
 ```
 $ git checkout master
+$ git pull
 ```
 
-ブランチの同期
+リモートで削除されたブランチの同期
 ```
 $ git fetch --prune
 ```
