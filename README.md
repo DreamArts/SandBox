@@ -103,3 +103,4 @@ $ git fetch --prune
 MIT Licence. Go WiLD!
 
 ## Contributor
+ * exabugs@gmail.com
