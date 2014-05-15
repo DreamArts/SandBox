@@ -22,22 +22,44 @@ SandBox
 
 ### 準備
 ```
+$ git config --global push.default simple
+```
+```
 $ git clone git@github.com:DreamArts/SandBox.git
 $ cd SandBox
 ```
 
-### 作業用ブランチでの作業
+### 開発(フィーチャー)ブランチでの作業
+
+ブランチ作成
 ```
 $ git checkout -b feature/hoge_hoge
-$ git push origin feature/hoge_hoge
+```
 
+ブランチ登録
+```
+$ git push -u origin feature/hoge_hoge
+```
+
+編集 → add → commit → push
+```
 $ vi README.md
+
 $ git add README.md
 $ git commit
-
-$ git pull origin feature/hoge_hoge
-$ git push origin feature/hoge_hoge
+$ git push
 ```
+
+masterブランチの内容を取り込みたい場合
+```
+$ git pull origin master
+```
+
+開発(フィーチャー)ブランチの内容を取り込みたい場合
+```
+$ git pull
+```
+
 
 ### プルリクエスト
 ```
