@@ -34,17 +34,17 @@ $ cd SandBox
 
 ### 開発(フィーチャー)ブランチでの作業
 
-ブランチ作成
+- ブランチ作成
 ```
 $ git checkout -b feature/hoge_hoge
 ```
 
-ブランチ登録
+- ブランチ登録
 ```
 $ git push -u origin feature/hoge_hoge
 ```
 
-編集 → add → commit → push
+- 編集 → add → commit → push
 ```
 $ vi README.md
 
@@ -53,12 +53,12 @@ $ git commit
 $ git push
 ```
 
-masterブランチの内容を取り込みたい場合
+* リモートのmasterブランチの内容を取り込みたい場合
 ```
 $ git pull origin master
 ```
 
-開発(フィーチャー)ブランチの内容を取り込みたい場合
+* リモートの開発(フィーチャー)ブランチの内容を取り込みたい場合
 ```
 $ git pull
 ```
@@ -71,34 +71,34 @@ PULL REQUEST HERE
 
 ### マージしてもらった後の、後始末
 
-masterブランチに戻る
+- masterブランチに戻る
 ```
 $ git checkout master
 $ git pull
 ```
 
-不要になった開発(フィーチャー)ブランチの削除
+- 不要になったローカルの開発(フィーチャー)ブランチの削除
 ```
 $ git branch -d feature/hoge_hoge
 ```
 
-ブランチの同期
+- ブランチの同期
 ```
 $ git fetch --prune
 ```
 
-### メンテナンス
-不要になったリモートブランチの削除
+### メンテナンス (トラブル対応)
+不要になったリモートブランチを削除するには
 ```
 $ git push origin :feature/hoge_hoge
 ```
 
-リモートに存在するブランチを全て取得
+リモートに存在するブランチを全て取得するには
 ```
 $ git fetch --all
 ```
 
-リモートブランチに存在しないブランチを削除する
+リモートブランチに存在しないブランチを削除するには
 ```
 $ git fetch --prune
 ```
