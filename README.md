@@ -28,15 +28,15 @@ $ cd SandBox
 
 ### 作業用ブランチでの作業
 ```
-$ git checkout -b work
-$ git push origin work
+$ git checkout -b feature/hoge_hoge
+$ git push origin feature/hoge_hoge
 
 $ vi README.md
 $ git add README.md
 $ git commit
 
-$ git pull origin work
-$ git push origin work
+$ git pull origin feature/hoge_hoge
+$ git push origin feature/hoge_hoge
 ```
 
 ### プルリクエスト
@@ -47,13 +47,13 @@ PULL REQUEST HERE
 ### 後始末
 不要になったローカルブランチの削除
 ```
-$ git branch -d hoge
+$ git branch -d feature/hoge_hoge
 ```
 
 ### メンテナンス
 不要になったリモートブランチの削除
 ```
-$ git push origin :hoge
+$ git push origin :feature/hoge_hoge
 ```
 
 リモートに存在するブランチを全て取得
