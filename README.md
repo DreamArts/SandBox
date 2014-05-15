@@ -3,6 +3,12 @@ SandBox
 
 練習用リポジトリ
 
+### GitHub運用ルール
+
+GitHub-Flowを参照
+
+https://gist.github.com/Gab-km/3705015
+
 ### 準備
 ```
 $ git clone git@github.com:DreamArts/SandBox.git
