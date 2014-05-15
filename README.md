@@ -74,14 +74,14 @@ $ git checkout master
 $ git pull
 ```
 
-リモートで削除されたブランチの同期
-```
-$ git fetch --prune
-```
-
 不要になったローカルブランチの削除
 ```
 $ git branch -d feature/hoge_hoge
+```
+
+ブランチの同期
+```
+$ git fetch --prune
 ```
 
 ### メンテナンス
