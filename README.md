@@ -60,6 +60,9 @@ $ git push
 $ git pull origin master
 ```
 
+ - rebaseの場合、競合箇所を修正した後はコミットではなく、rebaseコマンドに --continue オプションを指定して実行します。
+ - もし、rebase自体を取り消す場合は --abort オプションを指定します。
+
 * リモートの開発(フィーチャー)ブランチの内容を取り込みたい場合
 ```
 $ git pull
