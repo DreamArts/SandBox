@@ -23,6 +23,8 @@ SandBox
 
   * 旧バージョン(メンテナンスバージョン)の管理。support/ ブランチ？
 
+ * 綺麗なpull requestを送るための3つのポイント http://qiita.com/potix2/items/cddd7dd9cde6a9c6dde6
+
 ### 準備
 ```
 $ git config --global push.default simple
