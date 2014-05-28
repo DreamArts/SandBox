@@ -3,6 +3,8 @@ SandBox
 
 練習用リポジトリ
 
+1
+
 ### GitHub運用ルール
 
  * GitHub-Flow
